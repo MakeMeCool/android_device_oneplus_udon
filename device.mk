@@ -13,6 +13,9 @@ PRODUCT_PACKAGES += \
     KeyHandler \
     tri-state-key-calibrate
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_effects.xml \
@@ -36,7 +39,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-radiant
+    $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
