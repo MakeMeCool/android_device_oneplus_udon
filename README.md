@@ -1,4 +1,4 @@
-# Device Tree files for Nothing Phone (2)
+# Device Tree files for OnePlus 11R
 
 The OnePlus 11R (codenamed _"udon"_) is a smartphone from NOTHING. It was Rreleased 2023, February 21.
 
@@ -21,7 +21,7 @@ The OnePlus 11R (codenamed _"udon"_) is a smartphone from NOTHING. It was Rrelea
 | Front camera            | 16 MP, f/2.4, 24mm (wide), 1/3.09", 1.0µm                                        |
 
 ## Device Picture
-![OnePlus 11R](https://fdn2.gsmarena.com/vv/bigpic/oneplus-ace2.jpg)
+![OnePlus 11R](https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-ace2-3.jpg)
 
 ```
 #
